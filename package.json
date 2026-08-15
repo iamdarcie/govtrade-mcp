@@ -1,1 +1,23 @@
+{
+  "name": "govtrade-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server exposing GovTrade congressional trade data and pre-computed signals as agent-callable tools, paid via x402",
+  "main": "index.js",
+  "bin": {
+    "govtrade-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@x402/fetch": "^2.3.0",
+    "@x402/core": "^2.3.0",
+    "@x402/evm": "^2.3.0",
+    "viem": "^2.21.0",
+    "zod": "^3.23.0",
+    "dotenv": "^16.4.5"
+  }
+}
 
